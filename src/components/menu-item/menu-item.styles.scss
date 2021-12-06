@@ -1,0 +1,23 @@
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #F1F0AE;
+}
+img{
+    height: 65px;
+    margin-left: 1rem;
+}
+
+.menu-list{
+    display: flex;
+    list-style-type: none;
+
+}
+
+li{
+    padding: 2rem;
+    font-size: x-large;
+}
