@@ -1,6 +1,4 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
-
 import './App.css';
 
 //components
@@ -47,6 +45,7 @@ class App extends React.Component{
         <Number numero={this.state.numero} />
         <Footer />
       </>
+      
     )
   }
 }

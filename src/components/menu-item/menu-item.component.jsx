@@ -17,10 +17,11 @@ class Menu extends React.Component{
       return(
         <>
             <section class="menu-item">
-                <img src="/img/mono-pensando.png"/>
+                <img class="imagen-logo" src="/img/mono-pensando.png"/>
                 <ul class="menu-list">
                     <li onClick={(evento) => this.props.handlerSumar(evento)}>Suma</li>
                     <li onClick={(evento) => this.props.handlerRestar(evento)}>Resta</li>
+                    <li><a href="/otherpage">Other Page</a></li>
                 </ul>
             </section>
         </>
